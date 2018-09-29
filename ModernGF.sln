@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernGF.Api", "ModernGF.Api\ModernGF.Api.csproj", "{C9C9B5F0-AE5A-4503-AA2F-2F9838FFA1B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernGF.Domain", "ModernGF.Domain\ModernGF.Domain.csproj", "{150BF398-4B85-4B19-BE1B-91971E071FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernGF.Shared", "ModernGF.Shared\ModernGF.Shared.csproj", "{09A492E8-3ADB-4A5E-A474-31EB705F0B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernGF.Infra", "ModernGF.Infra\ModernGF.Infra.csproj", "{2C67A96C-AD8E-498E-AC65-FEA529EF16B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernGF.Helpers", "ModernGF.Helpers\ModernGF.Helpers.csproj", "{F8D1DD52-E81E-4DAE-BFC2-1E602F568A8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernGF.Validator", "ModernGF.Validator\ModernGF.Validator.csproj", "{88D86A82-41E3-469E-8E55-FA398340AABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{C9C9B5F0-AE5A-4503-AA2F-2F9838FFA1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9C9B5F0-AE5A-4503-AA2F-2F9838FFA1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9C9B5F0-AE5A-4503-AA2F-2F9838FFA1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150BF398-4B85-4B19-BE1B-91971E071FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150BF398-4B85-4B19-BE1B-91971E071FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150BF398-4B85-4B19-BE1B-91971E071FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150BF398-4B85-4B19-BE1B-91971E071FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A492E8-3ADB-4A5E-A474-31EB705F0B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A492E8-3ADB-4A5E-A474-31EB705F0B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A492E8-3ADB-4A5E-A474-31EB705F0B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A492E8-3ADB-4A5E-A474-31EB705F0B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C67A96C-AD8E-498E-AC65-FEA529EF16B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C67A96C-AD8E-498E-AC65-FEA529EF16B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C67A96C-AD8E-498E-AC65-FEA529EF16B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C67A96C-AD8E-498E-AC65-FEA529EF16B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D1DD52-E81E-4DAE-BFC2-1E602F568A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D1DD52-E81E-4DAE-BFC2-1E602F568A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D1DD52-E81E-4DAE-BFC2-1E602F568A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D1DD52-E81E-4DAE-BFC2-1E602F568A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D86A82-41E3-469E-8E55-FA398340AABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D86A82-41E3-469E-8E55-FA398340AABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D86A82-41E3-469E-8E55-FA398340AABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D86A82-41E3-469E-8E55-FA398340AABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

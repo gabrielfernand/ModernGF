@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModernGF.Helpers\ModernGF.Helpers.csproj" />
+    <ProjectReference Include="..\ModernGF.Shared\ModernGF.Shared.csproj" />
+    <ProjectReference Include="..\ModernGF.Validator\ModernGF.Validator.csproj" />
+  </ItemGroup>
+
+</Project>
